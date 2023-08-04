@@ -1,0 +1,64 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    background-color: #000000;
+}
+#cabecalho .nav .nav-link.active{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: white;
+}
+.navbar-brand{
+    font-size: xx-large;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+.section-title, .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+}
+#sobre, #cardapio{
+    background-color: #000000;
+    color: white;
+}
+.text-colored{
+    color: #5ea3be;
+}
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #000000;
+    color: white;
+}
+.nav-cardapio .nav-link:hover{
+    color: #ffffff;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+#fale-conosco button:hover{
+    background-color: black;
+}
+.carousel-inner img{
+    width: 1920px;
+    height: 720px;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 500px;
+        width: 500px;
+    }
+}

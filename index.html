@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Laroc</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#eventos">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#cardapio">
+                            <i class="bi bi-card-text me-1"></i>
+                           Cardápio</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./IMG/folder1.jpg" alt="Foto do espaço interno">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./IMG/laroc2.jpg" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./IMG/lrc-guaruja-drone-4-1600x1067.jpg" alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="d-block w-100 rounded" src="./IMG/sobre.jpg" alt="Foto do espaço interno">
+                        </div>
+                        <div class="col-md-7 mt-md-0 mt-3">
+                            <h2 class="section-title">Sobre o<span class="text-colored"> Laroc</span></h2>
+                            <p>Conheça o primeiro e o maior sunset club do Brasil. Estamos localizados em Valinhos, interior de São Paulo, com diversas datas durante o ano e uma espetacular interação com a natureza.</p>
+                            <h3 class="section-title">Experiência <span class="text-colored">Laroc</span></h3>
+                            <p>
+                                Conhecido como o primeiro sunset club do Brasil, o Laroc constrói a sua marca baseada no relacionamento e qualidade de experiência do público. 
+                                Recentemente eleito pela conceituada revista britânica DJ Mag como 12º maior club do mundo, o Laroc oferece atendimento, estrutura, open air, natureza, horário, música e toda a cenografia como alguns dos fatores que fizeram com que, em seus primeiros anos de vida, o club já tenha uma importância significativa na cena eletrônica mundial.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Confira alguns <span class="text-colored">headliners</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./IMG/img-eletro-vibez-wikivibez-avobe-beyond.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            Above & Beyond 
+                        </h3>
+                        <p>Above & Beyond é uma banda inglesa de trance formada pelos DJs Jono Grant, Tony McGuinness e Paavo Siljamäki. O grupo foi formado em 2000, quando Tony fez uma proposta aos outros dois membros para colaborarem em uma remix do projeto Chakra.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./IMG/alesso-dj.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            Alesso
+                        </h3>
+                        <p>Especializado em progressive house, Alesso alcançou a atenção mundial e popularidade em 2011, com amplo apoio de suas produções originais e remixes de nomes como Avicii, Swedish House Mafia, Tiësto, Sander van Doorn, Kaskade e outros DJ's bem sucedidos.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./IMG/alok_gq.webp" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            Alok
+                        </h3>
+                        <p>Alok Achkar Peres Petrillo, é um DJ e produtor musical brasileiro, mais conhecido por seu sucesso mundial de 2016 "Hear Me Now".Em 2021, foi eleito o 4º melhor DJ do mundo pela revista britânica DJ Mag.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Próximos <span class="text-colored">eventos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./IMG/ggg.jpg" class=" d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            Steve Angelo
+                        </h3>
+                        <p>O artista mais aguardado do ano na Laroc está chegando, garanta já o seu ingresso.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./IMG/evento2.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            Illusionize
+                        </h3>
+                        <p>05/08 você tem um encontro marcado com Illusionize para a melhor noite da sua vida.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./IMG/evento3.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            Reveillon Laroc
+                        </h3>
+                        <p>Vem, 2024. Salve agora seu lugar na experiência 'all inclusive' do Laroc, especialmente na virada do ano...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-4">Nosso <span class="text-colored">Cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" type="button"class="nav-link text-colored fw-bold text-start active">Bebidas não alcoólicas</button>
+                            <button data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" type="button"class="nav-link text-colored fw-bold text-start">Bebidas alcoólicas</button>
+                            <button data-bs-toggle="tab" data-bs-target="#entradas" type="button"class="nav-link text-colored fw-bold text-start">FoodTrucks</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active ms-3" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images_M14/cardapio/bebidas/coca-cola.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                                        <p>O melhor para matar a sua sede.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images_M14/cardapio/bebidas/suco.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Sucos</h5>
+                                        <p>Naturais e feitos na hora.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./IMG/agua.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Água</h5>
+                                        <p>Com ou sem gás.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane ms-3" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images_M14/cardapio/bebidas/cerveja.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
+                                        <p>Diversas marcas como Heineken, Stella e Budweiser.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images_M14/cardapio/bebidas/vinho.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Vinho</h5>
+                                        <p>Para quem procura algo mais aconchegante.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./IMG/greey.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Vodka</h5>
+                                        <p>Vodka GreyGoose para quem gosta de ir além.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane ms-3" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./IMG/hotdog.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Hot Dog</h5>
+                                        <p>FoodTruck especializado em Cachorro Quente.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./IMG/espetinho.jpeg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Espetinho</h5>
+                                        <p>FoodTruck especializado em Espetinhos.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./IMG/hamb.jpeg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Hamburguer</h5>
+                                        <p>FoodTruck especializado em Hamburguer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="nome">Seu Nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="email">Seu Email:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="telefone">Seu Telefone (Opcional):</label>
+                                <input type="tel" id="telefone" class="form-control" required placeholder="(00)0 0000-0000">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="mensagem">Sua mensagem:</label>
+                                <textarea class="form-control" name="" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="https://www.facebook.com/larocclub">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="https://www.instagram.com/larocclub/">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>Rod. Dom Pedro I, km 118 - Bairro dos Lopes, Valinhos - SP, 13273-300</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
